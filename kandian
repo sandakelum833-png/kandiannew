@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>උඩරට නර්තනය | Kandyan Dance</title>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Malithi Web', 'Iskoola Pota', 'Abhaya Libre', sans-serif; margin: 0; padding: 0; background-color: #fcf8f2; color: #333; line-height: 1.8; }
+        header { background-image: linear-gradient(to right, #8b0000, #5c0000); color: #ffd700; text-align: center; padding: 2.5rem 1rem; }
+        header h1 { margin: 0; font-size: 2.8rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        header p { font-size: 1.1rem; color: #ffffff; margin-top: 5px; }
+        nav { background-color: #3b0000; text-align: center; padding: 15px 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 4px 6px rgba(0,0,0,0.3); display: flex; justify-content: center; flex-wrap: wrap; }
+        nav a { color: #ffd700; text-decoration: none; font-size: 1.1rem; margin: 5px 15px; font-weight: bold; padding: 8px 15px; border-radius: 5px; transition: 0.3s; }
+        nav a:hover { background-color: #ffd700; color: #3b0000; }
+        .container { width: 85%; max-width: 1000px; margin: 30px auto; }
+        .section { background: #ffffff; padding: 25px 35px; margin-bottom: 35px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.08); border-top: 5px solid #d4af37; scroll-margin-top: 80px; }
+        h2 { color: #8b0000; border-bottom: 2px dashed #d4af37; padding-bottom: 10px; margin-top: 0; }
+        h3 { color: #5c0000; margin-top: 25px; }
+        p { font-size: 1.1rem; text-align: justify; }
+        .image-container { text-align: center; margin: 20px 0; }
+        .image-container img { max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); border: 3px solid #d4af37; }
+        ul.styled-list { list-style-type: none; padding: 0; }
+        ul.styled-list li { background: #fff8eb; margin-bottom: 10px; padding: 15px; border-radius: 5px; border-left: 5px solid #8b0000; font-size: 1.1rem; }
+        .vannam-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; margin-top: 20px; }
+        .vannam-item { background: #fff8eb; padding: 15px; border-radius: 5px; border-left: 4px solid #d4af37; font-size: 1.05rem; }
+        footer { background-color: #222; color: #ccc; text-align: center; padding: 1.5rem 0; margin-top: 40px; font-size: 1rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ශ්‍රී ලාංකේය උඩරට නර්තනය</h1>
+        <p>අපේ කමෙන් ඔපවත් වූ අභිමානවත් සංස්කෘතික උරුමය</p>
+    </header>
+
+    <nav>
+        <a href="#history">ඉතිහාසය</a>
+        <a href="#dances">නර්තන අංග</a>
+        <a href="#vannam">වන්නම් 18</a>
+        <a href="#rituals">පුහුණුව හා චාරිත්‍ර</a>
+        <a href="#instruments">වාද්‍ය භාණ්ඩ හා ඇඳුම්</a>
+    </nav>
+
+    <div class="container">
+        
+        <div id="history" class="section">
+            <h2>උඩරට නර්තනයේ ඉතිහාසය හා සම්භවය</h2>
+         <div class="image-container">
+    <img src="dance1.jpg" alt="උඩරට වෙස් නර්තනය">
+</div>
+            <p>උඩරට නර්තනය යනු ශ්‍රී ලංකාවේ ප්‍රධානතම සහ ලොව පුරා වඩාත් ප්‍රචලිත දේශීය නර්තන සම්ප්‍රදායයි. මෙහි මූලාරම්භය ඉන්දීය ශාමන්වරුන්ගේ පැමිණීමත් සමඟ ආරම්භ වූ බවට ජනප්‍රවාදයේ සඳහන් වේ. පඬුවස්දෙව් රජුට වැළඳුණු දිවි දොසක් (රෝගයක්) සුව කිරීම සඳහා ඉන්දියාවෙන් පැමිණි මලය රජු ඇතුළු පිරිස විසින් පවත්වන ලද <strong>'කොහොඹා යක් කංකාරිය'</strong> නම් වූ ශාන්තිකර්මය උඩරට නර්තනයේ මූලාරම්භය ලෙස පිළිගැනේ.</p>
+            
+            <p>පසුකාලීනව මහනුවර උඩරට රාජධානිය කේන්ද්‍ර කරගනිමින් රජවරුන්ගේ විශේෂ අනුග්‍රහය යටතේ මෙම නර්තන කලාව වර්ධනය විය. ශ්‍රී දළදා මාලිගාවේ දෛනික තේවාවන් සහ ඓතිහාසික ඇසළ පෙරහැර මංගල්‍යය සඳහා මෙම නර්තනය අනිවාර්ය අංගයක් බවට පත් කිරීමෙන් පසු ඊට ඉහළ රාජ්‍ය පිළිගැනීමක් ලැබිණි. අද වන විට මෙය හුදු ශාන්තිකර්මයකින් ඔබ්බට ගොස් දේශීය මෙන්ම ජාත්‍යන්තර වේදිකාවන් ආක්‍රමණය කළ උසස් කලාවක් බවට විකාශනය වී ඇත.</p>
+        </div>
+
+        <div id="dances" class="section">
+            <h2>ප්‍රධාන නර්තන අවස්ථා 05</h2>
+       <div class="image-container">
+    <img src="dance2.jpg" alt="උඩරට නර්තන ශිල්පීන්">
+</div>
+            <p>උඩරට නර්තනයේ මූලික ශෛලීන් 5ක් හඳුනාගත හැකි අතර ඒවා විවිධ අවස්ථාවන්හිදී ඉදිරිපත් කෙරේ:</p>
+            <ul class="styled-list">
+                <li><strong>1. වෙස් නර්තනය:</strong> උඩරට නර්තනයේ මුදුන් මල්කඩ ලෙස සැලකේ. කොහොඹා කංකාරිය සඳහා පමණක් අතීතයේ භාවිතා වූ අතර, උසස්ම පූජනීය තත්ත්වයක් හිමි වේ. නර්තන ශිල්පියා සම්පූර්ණ උඩරට ඇඳුම් කට්ටලයෙන් සැරසී මෙය ඉදිරිපත් කරයි.</li>
+                <li><strong>2. නයියන්ඩි නර්තනය:</strong> වෙස් තට්ටුව නොමැතිව, සුදු පැහැති ඇඳුමකින් සහ පබළු පටිවලින් පමණක් සැරසී සිදු කරන නර්තනයකි. විවිධ මංගල අවස්ථා වලදී හා පෙරහැර වලදී දැකගත හැක.</li>
+                <li><strong>3. උඩැක්කි නර්තනය:</strong> දෙවියන්ගේ වාද්‍ය භාණ්ඩයක් ලෙස සැලකෙන කුඩා 'උඩැක්කිය' වයමින්, අලංකාර ගායනයෙන් යුතුව සිදුකරන ශූර නර්තනයකි.</li>
+                <li><strong>4. පන්තේරු නර්තනය:</strong> පත්තිනි දේවියගේ වළල්ල සංකේතවත් කරන බව කියැවෙන, කුඩා සීනු සවිකළ 'පන්තේරුව' අතැතිව කරන ඉතා ක්‍රියාශීලී සහ වේගවත් නර්තනයකි.</li>
+                <li><strong>5. වන්නම් නර්තනය:</strong> සතුන්ගේ සහ විවිධ ස්වභාවික වස්තූන්ගේ හැඩතල සහ චලනයන් නිරූපණය කරමින් ගායනයට අනුව කරන නර්තනයකි.</li>
+            </ul>
+        </div>
+
+        <div id="vannam" class="section">
+            <h2>උඩරට වන්නම් 18</h2>
+            <p>ශ්‍රී වීරපරාක්‍රම නරේන්ද්‍රසිංහ රජ සමයේදී කවියෙකු වූ ගණිතාලංකාර නම් පඬිවරයා විසින් මෙම වන්නම් 18 රචනා කර ඇති බව ඉතිහාසයේ දැක්වේ. සෑම වන්නමක් මඟින්ම යම් සතෙකුගේ හෝ වස්තුවක ස්වභාවය නිරූපණය කරයි.</p>
+            <div class="vannam-grid">
+                <div class="vannam-item"><strong>1. ගජගා වන්නම:</strong> අලියාගේ ගමන</div>
+                <div class="vannam-item"><strong>2. තුරඟා වන්නම:</strong> අශ්වයාගේ ගමන</div>
+                <div class="vannam-item"><strong>3. මයුර වන්නම:</strong> මොණරාගේ හැසිරීම</div>
+                <div class="vannam-item"><strong>4. ගාහක වන්නම:</strong> හක්ගෙඩියේ හැඩය/නාදය</div>
+                <div class="vannam-item"><strong>5. උරුදෑ වන්නම:</strong> ඌරාගේ හැසිරීම</div>
+                <div class="vannam-item"><strong>6. මුසලඩි වන්නම:</strong> හාවාගේ ගමන</div>
+                <div class="vannam-item"><strong>7. උකුසු වන්නම:</strong> රාජාලියාගේ/උකුස්සාගේ පියාසැරිය</div>
+                <div class="vannam-item"><strong>8. වෛරොඩි වන්නම:</strong> වටිනා මැණිකක ස්වභාවය</div>
+                <div class="vannam-item"><strong>9. හනුමා වන්නම:</strong> වඳුරාගේ ක්‍රියාකාරකම්</div>
+                <div class="vannam-item"><strong>10. මකර වන්නම:</strong> මකරාගේ ස්වභාවය</div>
+                <div class="vannam-item"><strong>11. සැවුලා වන්නම:</strong> කුකුළාගේ හැසිරීම</div>
+                <div class="vannam-item"><strong>12. සිංහරාජ වන්නම:</strong> සිංහයාගේ ගාම්භීරත්වය</div>
+                <div class="vannam-item"><strong>13. නෛයඩි වන්නම:</strong> නාගයාගේ ගමන</div>
+                <div class="vannam-item"><strong>14. කිරලා වන්නම:</strong> කිරළ කුරුල්ලාගේ හැසිරීම</div>
+                <div class="vannam-item"><strong>15. ඉරඩි වන්නම:</strong> යුධ භටයෙකුගේ ගමන</div>
+                <div class="vannam-item"><strong>16. සුරපති වන්නම:</strong> ශක්‍ර දෙවියන්ගේ ස්වභාවය</div>
+                <div class="vannam-item"><strong>17. ගණපති වන්නම:</strong> ගණ දෙවියන්ගේ ස්වභාවය</div>
+                <div class="vannam-item"><strong>18. අසදිස වන්නම:</strong> බුදුරජාණන් වහන්සේගේ ගුණ</div>
+            </div>
+        </div>
+
+        <div id="rituals" class="section">
+            <h2>නර්තන පුහුණුව සහ සුවිශේෂී චාරිත්‍ර</h2>
+            <p>උඩරට නර්තනය හැදෑරීම ඉතා දැඩි විනයකින් සහ කැපවීමකින් කළ යුත්තකි. පැරණි ගුරුකුල වල නර්තනය ඉගැන්වීම ආරම්භ කළේ <strong>"දඬු කඳේ පුහුණුව"</strong> මගිනි.</p>
+            
+            <h3>වෙස් මංගල්‍යය (පිරිමි ශිල්පීන් සඳහා)</h3>
+            <p>වසර ගණනාවක පුහුණුවෙන් පසු, පිරිමි නර්තන ශිල්පියෙකු පළමු වරට පූජනීය 'වෙස් තට්ටුව' හිස පැළඳීම <strong>වෙස් මංගල්‍යය</strong> ලෙස හැඳින්වේ. මෙය සුභ මුහුර්තයකින් දේවාලයකදී හෝ පන්සලකදී පවත්වන ඉතා උතුම් චාරිත්‍රයකි.</p>
+
+            <h3>පහිම්පත් තැබීම (කාන්තා ශිල්පීන් සඳහා)</h3>
+            <p>කාන්තා නර්තන ශිල්පිනියක් සිය පුහුණුව අවසන් කර පළමුවරට කරළියට පිවිසීම <strong>පහිම්පත් තැබීමේ මංගල්‍යය</strong> ලෙස හැඳින්වේ. මෙහිදී වෙස් තට්ටුව වෙනුවට විශේෂිත හිස් පළඳනාවක් කාන්තාවන් සඳහා යොදා ගැනේ.</p>
+        </div>
+
+        <div id="instruments" class="section">
+            <h2>වාද්‍ය භාණ්ඩ සහ ආභරණ</h2>
+   <div class="image-container">
+    <img src="drum.jpg" alt="උඩරට ගැට බෙරය">
+</div>
+            <ul class="styled-list">
+                <li><strong>ගැට බෙරය:</strong> උඩරට නර්තනයටම ආවේණික වූ ප්‍රධාන වාද්‍ය භාණ්ඩයයි. මෙහි වම් පසට ගව හමක් ද, දකුණු පසට වඳුරු හමක් ද යොදාගන්නා අතර, දෙපසින් වෙනස් නාදයන් දෙකක් නිකුත් කරයි.</li>
+                <li><strong>තාලම්පොට:</strong> නර්තනයේ ලය (වේගය) සහ තාලය පාලනය කිරීම සඳහා භාවිතා කරන ලෝහමය කුඩා උපකරණයකි.</li>
+                <li><strong>හක්ගෙඩිය:</strong> පූජනීය අවස්ථාවන්හිදී නර්තනය ආරම්භයට පෙර ශබ්ද කිරීම සඳහා යොදාගන්නා ස්වභාවික ශංඛයකි.</li>
+            </ul>
+            
+            <br>
+            <h2>වෙස් ඇඳුම් කට්ටලය (ආභරණ 64)</h2>
+            <p>උඩරට වෙස් නර්තන ශිල්පියෙකුගේ සම්පූර්ණ ඇඳුම් කට්ටලය ආභරණ සහ උපාංග 64 කින් සමන්විත බව පැවසේ. එය රාජකීය ඇඳුමකට සමාන වේ. ප්‍රධාන උපාංග පහත පරිදි වේ:</p>
+            <ul class="styled-list">
+                <li><strong>ජටාව සහ වෙස් තට්ටුව:</strong> හිස පැළඳෙන පූජනීයම අංගයයි. මෙහි ඉර හඳ සටහන් කර ඇත.</li>
+                <li><strong>තෝඩු පත් හා කන්වැල්:</strong> කන් දෙපසින් එල්ලා වැටෙන අලංකාර ආභරණය.</li>
+                <li><strong>අවුල්හැරය:</strong> පපුව සහ පිටුපස ආවරණය වන පරිදි පළඳින පබළු වලින් නිර්මාණය කළ දැලක් වැනි ආවරණය.</li>
+                <li><strong>බණ්ඩි පටිය සහ ඉණ හැඩය:</strong> ඉණ වටා පළඳින රිදී පැහැති අලංකාර පටි සහ හැඩතල.</li>
+                <li><strong>නෙත්මාලය:</strong> සුදු පැහැති රෙදි යාර ගණනාවකින් අලංකාර ලෙස සකසන ලද ඉණ වටා ඇති රෙදි කොටස (පොඩිය).</li>
+                <li><strong>සිලම්බු:</strong> පාද වලට පළඳින, නාද වන ගිගිරි වළලු.</li>
+                <li><strong>බන්දි වළලු සහ හස්ත කඩගම්:</strong> අත් වලට සහ බාහුවලට පළඳින ආභරණ.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 උඩරට නර්තනය පිළිබඳ අධ්‍යාපනික වෙබ් පිටුව.</p>
+    </footer>
+
+</body>
+</html>
